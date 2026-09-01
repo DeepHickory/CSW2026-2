@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conceitos de Semântica</title>
 </head>
+
 <body>
-    
+
     <h1><strong>Principais Formatações</strong></h1>
     <h2>Negrito/Destaque</h2>
     <p>
@@ -24,13 +26,47 @@
     <p>
         Neste texto estou utilizando a tag <mark>MARK</mark>.
         <br>
-        Neste <mark>texto</mark> também estou utilizando a tag mark.
+        Neste <mark style="background-color: greenyellow;">texto</mark> também estou utilizando a tag mark.
     </p>
-    <h2></h2>
+    <h2>Grande e Pequeno</h2>
     <p>
-        <br>
+        Neste texto temos palvaras <big>Grandes</big> e palavras <small>pequenas</small>
     </p>
+    <h2>Texto deletado e texto riscado</h2>
+    <p>Neste texto temos <del>palavras</del> com a tag del (com semântica)
+        <br>
+    </p>Nesto texto temos <strike>palavras</strike> com a tag strike (sem semântica)
+    <h2>Inserido e Sublinhado</h2>
+    <p>Nesta frase temos <u>palavras</u> sublinhadas com a tag U (sem semântica)
+        <br>
+    </p>Nesta frase temos <ins>palavras</ins> sublinhadas com a tag ins (com semântica)
+    <h2>Texto sobescrito</h2>
+    <p>
+        A formula de bhaskara utiliza o x<sup>2</sup>
+    </p>
+    <h2>Texto subescrito</h2>
+    <p>
+        H<sub>2</sub>O
+    </p>
+    <h2>Função em Java para temperatura</h2>
+    <code>
+    <pre>
+        public class ConversorTemperatura {
+            public static double celsiusParaKelvin(double celsius) {
+                return celsius + 273.15;
+            }
+
+            public static void main(String[] args) {
+                double celsius = 25.0;
+                double kelvin = celsiusParaKelvin(celsius);
+                System.out.println(celsius + "°C é igual a " + kelvin + "K");
+            }
+        }
+    </pre>
+    </code>
+
 
 
 </body>
+
 </html>
