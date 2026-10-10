@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "baba";
+    src: url(./fontes/Lazy\ Arie.otf) format(opentype);
+
+}
+@font-face {
+    font-family: "rozo";
+    src: url(./fontes/The\ Inquisition.ttf) format(truetype);
+}
+body{
+    background-color: lightgray;
+}
+div{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+}
+p{
+    margin: 0;
+}
+
+
+
+#titulo{
+    font-family:"baba", Arial, sans-serif;
+    font-size: 2em;
+}
+
+#quadradoAzul{
+    background-color: blue;
+}
+#quadradoVermelho{
+    background-color: red;
+}
+#quadradoPreto{
+    background-color: black;
+}                                                   /*utilizando IDs*/
+#quadradoCinza{
+    background-color: lightgray;
+}
+#quadradoCinza:hover{
+    background-color: yellow;
+}
+#quadradoVerde{
+    background-color: green;
+}
+
+.repeticao1{
+    background-color: lightcoral;
+}
+.repeticao2{
+    background-color: blueviolet;         /*utilizando classes*/
+}
+.subTitulos{
+    font-family: "rozo", Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+
+
+.caixa{
+    background-color: aquamarine;
+}.textoHover{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;           /*hover com texto escondido*/
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.caixa:hover .textoHover{
+    opacity: 1;
+    background-color: yellow;
+}
+
+
+.c1:hover{
+    color: red;
+}
+.c2:hover{
+    background-color: yellow;        /*trocando cor com hover*/
+}
+.c3:hover{
+    color: red;
+    background-color: yellow;
+}
+
+
+a::before{
+    content: '>>';
+}
+a::after{
+    content: ' [Link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: blueviolet;
+}
+
+.texto::first-letter{
+    font-size: 3em;
+    font-weight: bold;
+    float: left;                /*Primeira letra grande*/
+    line-height: 1;
+    margin-right: 8px;
+    color: crimson;
+}
+
+
