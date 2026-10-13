@@ -1,11 +1,11 @@
 @font-face {
     font-family: "baba";
-    src: url(./fontes/Lazy\ Arie.otf) format(opentype);
+    src: url(../fontes/Lazy\ Arie.otf) format(opentype);
 
 }
 @font-face {
     font-family: "rozo";
-    src: url(./fontes/The\ Inquisition.ttf) format(truetype);
+    src: url(../fontes/The\ Inquisition.ttf) format(truetype);
 }
 body{
     background-color: lightgray;
@@ -26,7 +26,6 @@ p{
     font-family:"baba", Arial, sans-serif;
     font-size: 2em;
 }
-
 #quadradoAzul{
     background-color: blue;
 }
@@ -45,6 +44,7 @@ p{
 #quadradoVerde{
     background-color: green;
 }
+
 
 .repeticao1{
     background-color: lightcoral;
