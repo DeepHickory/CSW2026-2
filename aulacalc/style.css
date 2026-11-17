@@ -1,0 +1,29 @@
+body, main{
+    background-color:darkgrey;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+p{
+    padding: 12px;
+    background-color: gray;
+    border-radius: 6px;
+}
+
+button{
+    background-color: chartreuse;
+    padding: 20px;
+    border-radius: 30px;
+    width: 380px
+}
+
+input{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+}
